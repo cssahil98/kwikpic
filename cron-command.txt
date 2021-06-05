@@ -1,0 +1,17 @@
+start cron : 
+etc/init.d/crond start 
+
+restart cron :
+etc/init.d/crond restart 
+
+stop cron :
+etc/init.d/crond stop  
+
+edit/create cron :
+crontab -e  
+
+display task :
+crontab -l  
+
+delete task :
+crontab -r  
