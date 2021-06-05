@@ -1,0 +1,19 @@
+1.start a new repository: 
+git init [repository name]
+
+get a repository from an existing URL :
+git clone [url]
+
+adds a file to the staging area :
+git add [file]
+
+show all the files that have to be committed :
+gir status
+
+deletes the file :
+git rm [file]
+
+
+
+
+
